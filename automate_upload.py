@@ -48,9 +48,9 @@ def load_csv_to_mongodb():
         collection.delete_many({})
         collection.insert_many(data)
 
-        message = f"✅ Successfully inserted {len(data)} records into {db_name}.{collection_name}"
+        message = f"✅ car booking Successfully done {len(data)} records into {db_name}.{collection_name}"
         logging.info(message)
-        send_email("MongoDB Import Success", message)
+        send_email("MongoDB Booking Success", message)
 
     except Exception as e:
         error_msg = f"❌ Error occurred: {str(e)}"
