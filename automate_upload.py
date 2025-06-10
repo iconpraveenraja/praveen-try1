@@ -11,7 +11,7 @@ EMAIL_ADDRESS = "praveenrajaoncamera@gmail.com"
 EMAIL_PASSWORD = "kjcrwolyagzyxisg"
 RECEIVER_EMAIL = "praveenrajazp5164@gmail.com"
 
-# Set up logging
+
 logging.basicConfig(level=logging.INFO)
 
 def send_email(subject, body):
